@@ -1,4 +1,19 @@
 %h1
-  Concerts#index
+  Upcoming concerts
 %p
-  Find me in app/views/concerts/index.html.erb
+  %table
+    %tr
+      %th Artist
+      %th Date
+      %th Venue
+      %th Price
+    - @concerts.each do |concert|
+      %tr
+        %td
+          = concert.artist
+        %td
+          = concert.datetime
+        %td
+          = concert.venue
+        %td
+          = concert.price
