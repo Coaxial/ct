@@ -14,7 +14,7 @@ RSpec.describe ConcertsController, :type => :controller do
     end
 
     it "loads all of the concerts into @concerts" do
-      concerts = [Concert.create!, Concert.create!]
+      concerts = [create(:concert), create(:concert)]
 
       get :index
 
