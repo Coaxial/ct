@@ -1,7 +1,9 @@
+require 'open-uri'
+
 class ScrapConcertsJob < ActiveJob::Base
   queue_as :default
 
   def perform(*args)
-    # Do something later
+    Nokogiri::HTML(open("http://cheapthrills.ca/news.html"))
   end
 end
