@@ -1,0 +1,19 @@
+%h1
+  Upcoming concerts
+%p
+  %table
+    %tr
+      %th Artist
+      %th Date
+      %th Venue
+      %th Price
+    - @concerts.each do |concert|
+      %tr
+        %td
+          = concert.artist
+        %td
+          = concert.datetime
+        %td
+          = concert.venue
+        %td
+          = concert.price
