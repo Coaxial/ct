@@ -12,7 +12,7 @@ RSpec.describe ScrapConcertsJob, type: :job do
   end
 
   context 'after scraping the page' do
-    let(:expected_concert) { build(:concert, artist: 'YOUNG RIVAL / WE ARE MONROE', datetime: Time.new(2016, 1, 28, 20, 0, 0), venue: 'Belmont', price: 12.0) }
+    let(:expected_concert) { build(:concert, artist: 'KURT VILE & THE VIOLATORS', datetime: Time.new(2016, 2, 20, 20, 30, 0), venue: 'Corona', price: 27.0, soldout: true) }
 
     before {
       VCR.use_cassette(:ct_news) do
@@ -20,7 +20,7 @@ RSpec.describe ScrapConcertsJob, type: :job do
       end
     }
 
-    subject { Concert.first }
+    subject { Concert.find(33) }
 
     it 'extracts the artist to the model' do
       expect(subject.artist).to eq(expected_concert.artist)
@@ -36,6 +36,10 @@ RSpec.describe ScrapConcertsJob, type: :job do
 
     it 'extracts the price to the model' do
       expect(subject.price).to eq(expected_concert.price)
+    end
+
+    it 'extracts the soldout status to the model' do
+      expect(subject.soldout).to eq(expected_concert.soldout)
     end
   end
 end
