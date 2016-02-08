@@ -19,7 +19,7 @@ class ScrapConcertsJob < ActiveJob::Base
   
   def parse_concert(concert_data)
     montreal_time_offset = '-05:00'
-    is_soldout = concert_data.length === 6 && concert_data[0].match(/sold\s?out/i)
+    is_soldout = (concert_data.length === 6 && !!(concert_data[0].match(/sold\s?out/i)))
     concert_with_soldout_status = concert_data.insert(0, is_soldout)
     concert_with_soldout_status.slice!(1) if is_soldout
     date = Date.parse(concert_with_soldout_status[2])
@@ -31,7 +31,8 @@ class ScrapConcertsJob < ActiveJob::Base
       artist: concert_with_soldout_status[1],
       datetime: datetime,
       venue: concert_with_soldout_status[4],
-      price: price
+      price: price,
+      soldout: is_soldout
     }
   end
 
