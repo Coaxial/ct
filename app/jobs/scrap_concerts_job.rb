@@ -24,16 +24,14 @@ class ScrapConcertsJob < ActiveJob::Base
     concert_with_soldout_status.slice!(1) if is_soldout
     date = Date.parse(concert_with_soldout_status[2])
     time = Time.parse(concert_with_soldout_status[3])
-    # date = concert_with_soldout_status[2]
-    # time = concert_with_soldout_status[3]
     datetime = Time.new(date.year, date.month, date.day, time.hour, time.min)
+    price = concert_with_soldout_status[5].gsub(/[^\d\.]/, '')
 
     {
       artist: concert_with_soldout_status[1],
-      # datetime: (date + time.seconds_since_midnight.seconds).to_datetime,
       datetime: datetime,
       venue: concert_with_soldout_status[4],
-      price: concert_with_soldout_status[5]
+      price: price
     }
   end
 
@@ -51,8 +49,6 @@ class ScrapConcertsJob < ActiveJob::Base
       split_concert_data = split_data concert_data
       parse_concert split_concert_data
     end
-
-    puts concerts
 
     Concert.create(concerts)
   end
