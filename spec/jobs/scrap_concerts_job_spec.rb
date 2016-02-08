@@ -12,12 +12,24 @@ RSpec.describe ScrapConcertsJob, type: :job do
   end
 
   it 'extracts concerts to the model' do
-    expected_concert = build(:concert, artist: 'YOUNG RIVAL / WE ARE MONROE', datetime: Time.new(2016, 1, 28, 20, 0, 0), venue: 'Belmont', price: 12.0)
+    expected_data = {
+      artist: 'YOUNG RIVAL / WE ARE MONROE',
+      datetime: Time.new(2016, 1, 28, 20, 0, 0),
+      venue: 'Belmont',
+      price: 12.0
+    }
 
     VCR.use_cassette(:ct_news) do
       ScrapConcertsJob.perform_now
     end
 
-    expect(Concert.first).to eq(expected_concert)
+    actual_data = {
+      artist: Concert.first.artist,
+      datetime: Concert.first.datetime,
+      venue: Concert.first.venue,
+      price: Concert.first.price
+    }
+
+    expect(expected_data).to eq(actual_data)
   end
 end
