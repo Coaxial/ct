@@ -12,7 +12,44 @@ class ScrapConcertsJob < ActiveJob::Base
     open('http://cheapthrills.ca/news.html')
   end
 
+  def split_data(data)
+    split_data = data.text.split("\r\n")
+    split_data.reject { |string| string.blank? }
+  end
+  
+  def parse_concert(concert_data)
+    montreal_time_offset = '-05:00'
+    is_soldout = concert_data.length === 6 && concert_data[0].match(/sold\s?out/i)
+    concert_with_soldout_status = concert_data.insert(0, is_soldout)
+    concert_with_soldout_status.slice!(1) if is_soldout
+    date = Date.parse(concert_with_soldout_status[2])
+    time = Time.parse(concert_with_soldout_status[3])
+    datetime = Time.new(date.year, date.month, date.day, time.hour, time.min)
+    price = concert_with_soldout_status[5].gsub(/[^\d\.]/, '')
+
+    {
+      artist: concert_with_soldout_status[1],
+      datetime: datetime,
+      venue: concert_with_soldout_status[4],
+      price: price
+    }
+  end
+
   def parse_html
-    news_page = Nokogiri::HTML(news_page_html)
+    news_page = Nokogiri::HTML(news_page_html) do |config|
+      config.nonet
+    end
+
+    concerts_selector = 'body > center > table table tr'
+    concerts_data = news_page.css(concerts_selector)
+    list_header_index = 0
+
+    concerts = concerts_data.map.with_index do |concert_data, index|
+      next if index === list_header_index
+      split_concert_data = split_data concert_data
+      parse_concert split_concert_data
+    end
+
+    Concert.create(concerts)
   end
 end

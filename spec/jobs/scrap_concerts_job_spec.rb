@@ -11,13 +11,31 @@ RSpec.describe ScrapConcertsJob, type: :job do
     WebMock.reset!
   end
 
-  it 'extracts concerts to the model' do
-    expected_concert = build(:concert, artist: 'YOUNG RIVAL / WE ARE MONROE', datetime: Time.new(2016, 1, 28, 20, 0, 0), venue: 'Belmont', price: 12.0)
+  context 'after scraping the page' do
+    let(:expected_concert) { build(:concert, artist: 'YOUNG RIVAL / WE ARE MONROE', datetime: Time.new(2016, 1, 28, 20, 0, 0), venue: 'Belmont', price: 12.0) }
 
-    VCR.use_cassette(:ct_news) do
-      ScrapConcertsJob.perform_now
+    before {
+      VCR.use_cassette(:ct_news) do
+        ScrapConcertsJob.perform_now
+      end
+    }
+
+    subject { Concert.first }
+
+    it 'extracts the artist to the model' do
+      expect(subject.artist).to eq(expected_concert.artist)
     end
 
-    expect(Concert.first).to eq(expected_concert)
+    it 'extracts the datetime to the model' do
+      expect(subject.datetime).to eq(expected_concert.datetime)
+    end
+
+    it 'extracts the venue to the model' do
+      expect(subject.venue).to eq(expected_concert.venue)
+    end
+
+    it 'extracts the price to the model' do
+      expect(subject.price).to eq(expected_concert.price)
+    end
   end
 end
