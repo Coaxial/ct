@@ -4,16 +4,16 @@
   %table
     %tr
       %th Artist
-      %th Date
+      %th Date & Time
       %th Venue
       %th Price
     - @concerts.each do |concert|
       %tr
         %td
-          = concert.artist
+          = concert.artist.titleize
         %td
-          = concert.datetime
+          = local_formatted_time(concert.datetime)
         %td
-          = concert.venue
+          = concert.venue.titleize
         %td
-          = concert.price
+          = number_to_currency(concert.price)
