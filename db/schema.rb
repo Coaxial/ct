@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20160208041429) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "concerts", force: :cascade do |t|
     t.string   "artist"
     t.datetime "datetime"
@@ -37,6 +40,6 @@ ActiveRecord::Schema.define(version: 20160208041429) do
     t.datetime "updated_at"
   end
 
-  add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority"
+  add_index "delayed_jobs", ["priority", "run_at"], name: "delayed_jobs_priority", using: :btree
 
 end
