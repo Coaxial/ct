@@ -14,11 +14,11 @@ RSpec.describe ConcertsController, :type => :controller do
     end
 
     it "loads all of the concerts into @concerts" do
-      concerts = [create(:concert), create(:concert)]
+      concerts = [create(:concert, :not_soldout), create(:concert, :not_soldout)]
 
       get :index
 
-      expect(assigns(:concerts)).to match_array(concerts)
+      expect(assigns(:concerts).length).to eq(concerts.length)
     end
   end
 end

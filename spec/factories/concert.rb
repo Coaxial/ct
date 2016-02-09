@@ -4,6 +4,7 @@ FactoryGirl.define do
     datetime Time.new(1965, 3, 5, 20, 0, 0)
     venue "Edmonton, Regal Theatre"
     price 30
+    not_soldout
 
     trait :no_artist do
       artist nil
@@ -19,6 +20,14 @@ FactoryGirl.define do
 
     trait :no_price do
       price nil
+    end
+
+    trait :not_soldout do
+      soldout false
+    end
+
+    trait :soldout do
+      soldout true
     end
   end
 end
