@@ -31,6 +31,9 @@ gem 'delayed_job_active_record'
 # Page scrapping
 gem 'nokogiri'
 
+# Music samples
+gem 'rspotify'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -38,6 +41,7 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.0'
   gem 'webmock'
   gem 'vcr'
+  gem 'rspec-activejob'
 end
 
 group :development do

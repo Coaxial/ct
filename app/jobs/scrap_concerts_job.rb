@@ -7,6 +7,10 @@ class ScrapConcertsJob < ActiveJob::Base
     extract_concert_data
   end
 
+  after_perform do |job|
+    GetArtistSampleJob.perform_later
+  end
+
   private
   def news_page_html
     open('http://cheapthrills.ca/news.html')

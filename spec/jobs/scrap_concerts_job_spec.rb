@@ -44,4 +44,14 @@ RSpec.describe ScrapConcertsJob, type: :job do
       expect(subject.soldout).to eq(expected_concert.soldout)
     end
   end
+
+  context "after the job is done" do
+    before {
+      VCR.insert_cassette(:ct_news)
+    }
+
+    it "enqueues another job to fetch artists' sample" do
+      expect { ScrapConcertsJob.perform_now }.to enqueue_a(GetArtistSampleJob)
+    end
+  end
 end
