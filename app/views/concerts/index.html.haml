@@ -1,19 +1,25 @@
-%h1
-  Upcoming concerts
-%p
-  %table
-    %tr
-      %th Artist
-      %th Date
-      %th Venue
-      %th Price
-    - @concerts.each do |concert|
+.row
+  .col-md-12
+    %h1
+      Upcoming concerts
+    %h1
+      %small
+        Data retrieved from #{h link_to 'Cheap Thrills', 'http://cheapthrills.ca/news.html'}, sold out concerts not shown
+.row
+  .col-md-12
+    %table.table.table-striped.table-hover
       %tr
-        %td
-          = concert.artist
-        %td
-          = concert.datetime
-        %td
-          = concert.venue
-        %td
-          = concert.price
+        %th Artist
+        %th Date & Time
+        %th Venue
+        %th Price
+      - @concerts.each do |concert|
+        %tr
+          %td
+            = concert.artist.titleize
+          %td
+            = local_formatted_time(concert.datetime)
+          %td
+            = concert.venue.titleize
+          %td
+            = number_to_currency(concert.price)

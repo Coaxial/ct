@@ -1,0 +1,660 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://cheapthrills.ca/news.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 07 Feb 2016 23:26:12 GMT
+      Server:
+      - Apache
+      Last-Modified:
+      - Wed, 03 Feb 2016 17:38:23 GMT
+      Etag:
+      - '"942819a-c515-56b23b0f"'
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '50453'
+      Content-Type:
+      - text/html
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\r\n<HTML>\r\n<HEAD>\r\n
+        \  <META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\r\n
+        \  <META HTTP-EQUIV=\"content-type\" CONTENT=\"text/html;charset=iso-8859-1\">\r\n
+        \  <META NAME=\"description\" CONTENT=\"Cheap THrills is Canada's premiere
+        record store and mail order company. We offer over 10,000 items that are very
+        competitve in the international market. We specialize in Avant, Jazz, Experimental,
+        Noise and Post-Rock forms of music.\">\r\n   <META NAME=\"KEYWORDS\" CONTENT=\"Records,
+        CD, Music, Store, Mail Order, Retail, Rock, Jazz, Experimental, Noise, Indie,
+        Instrumental, International, Blues, Electronica, Techno, African, Alternative,
+        Actuelle, Soul, Canadian\">\r\n   <META NAME=\"GENERATOR\" CONTENT=\"Mozilla/4.07
+        [en] (Win98; I) [Netscape]\">\r\n   <TITLE>Cheap Thrills Mail Order Music:
+        News</TITLE>\r\n<SCRIPT language=\"JavaScript\"><!--\r\nif (document.images)
+        {\r\n            francon = new Image();\r\n            francon.src = \"images/gifs/francon.gif\";
+        \  // Active Images\r\n            caton = new Image();\r\n            caton.src
+        = \"images/gifs/caton.gif\";\r\n            orderon = new Image();\r\n            orderon.src
+        = \"images/gifs/orderon.gif\";       // Active Images\r\n            homeon
+        = new Image();\r\n            homeon.src = \"images/gifs/homeon.gif\";\r\n\r\n
+        \           francoff = new Image();\r\n            francoff.src = \"images/gifs/francoff.gif\";
+        \    // Inactive Images\r\n            catoff = new Image();\r\n            catoff.src
+        = \"images/gifs/catoff.gif\";\r\n            orderoff = new Image();\r\n            orderoff.src
+        = \"images/gifs/orderoff.gif\";     // Inactive Images\r\n            homeoff
+        = new Image();\r\n            homeoff.src = \"images/gifs/homeoff.gif\";\r\n\r\n
+        \       }\r\n\r\n// Function to 'activate' images.\r\nfunction imgOn(imgName)
+        {\r\n        if (document.images) {\r\n            document[imgName].src =
+        eval(imgName + \"on.src\");\r\n        }\r\n}\r\n\r\n// Function to 'deactivate'
+        images.\r\nfunction imgOff(imgName) {\r\n        if (document.images) {\r\n
+        \           document[imgName].src = eval(imgName + \"off.src\");\r\n        }\r\n}\r\n//
+        -->\r\n\t\t</SCRIPT>\r\n<LINK rel=\"stylesheet\" href=\"store.css\" type=\"text/css\">\r\n</HEAD>\r\n<BODY
+        TEXT=\"#000000\" BGCOLOR=\"#FFFFFF\" LINK=\"#990000\" VLINK=\"#990000\" ALINK=\"#CC0033\">\r\n&nbsp;\r\n<CENTER><TABLE
+        BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=\"580\" valign=\"top\" >\r\n<TR>\r\n<TD
+        ALIGN=CENTER VALIGN=TOP WIDTH=\"120\" BGCOLOR=\"#990000\"><IMG SRC=\"images/gifs/topbar.gif\"
+        ALT=\"\" BORDER=0 HEIGHT=15 WIDTH=120 ALIGN=TOP><A HREF=\"index.html\" onmouseover=\"imgOn('home')\"
+        onmouseout=\"imgOff('home')\"><IMG SRC=\"images/gifs/homeoff.gif\" NAME=\"home\"
+        ALT=\"HOME\" HSPACE=5 VSPACE=5 BORDER=0 HEIGHT=90 WIDTH=90></A><A HREF=\"cgi-bin/web_store/web_store.cgi\"
+        onmouseover=\"imgOn('cat')\" onmouseout=\"imgOff('cat')\"><IMG SRC=\"images/gifs/catoff.gif\"
+        NAME=\"cat\" ALT=\"CATALOG\" HSPACE=5 VSPACE=5 BORDER=0 HEIGHT=90 WIDTH=90></A><A
+        HREF=\"orderinfo.html\" onmouseover=\"imgOn('order')\" onmouseout=\"imgOff('order')\"><IMG
+        SRC=\"images/gifs/orderoff.gif\" NAME=\"order\" ALT=\"ORDER INFO\" HSPACE=5
+        VSPACE=5 BORDER=0 HEIGHT=90 WIDTH=90></A><A HREF=\"indexf.html\" onmouseover=\"imgOn('franc')\"
+        onmouseout=\"imgOff('franc')\"><IMG SRC=\"images/gifs/francoff.gif\" NAME=\"franc\"
+        ALT=\"EN FRANCAIS\" HSPACE=5 VSPACE=5 BORDER=0 HEIGHT=90 WIDTH=90></A></TD>\r\n\r\n<TD
+        ROWSPAN=\"2\" WIDTH=\"15\">&nbsp;</TD>\r\n\r\n<TD VALIGN=TOP WIDTH=\"445\">\r\n<CENTER><IMG
+        SRC=\"images/gifs/Cheaplogo.gif\" ALT=\"CHEAP THRILLS\" HEIGHT=114 WIDTH=400></CENTER>\r\n\r\n\r\n<P>This
+        page is updated irregularly but our catalog is updated weekly.<BR>\r\n<P>\r\n<P>The
+        following is a list of concert tickets currently on sale at the store in Montreal.
+        Prices are in Canadian $ and availablity is limited. Sold out means we have
+        none left, there may be tickets elsewhere.<BR>\r\n<P>\r\n\r\n<P>\r\n<P>\r\n<!--
+        The following table was generated by the Internet Assistant Wizard for Microsoft
+        Excel. -->\r\n<!-- ------------------------- -->\r\n<!-- START OF CONVERTED
+        OUTPUT -->\r\n<!-- ------------------------- -->\r\n<Table border>\r\n<TR
+        VALIGN=\"bottom\">\r\n<TD ALIGN=\"right\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n&nbsp;</FONT></TD>\r\n<TD
+        BGCOLOR=#C0C0C0 ALIGN=\"center\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nARTIST</FONT></TD>\r\n<TD
+        BGCOLOR=#C0C0C0 ALIGN=\"center\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nDATE</FONT></TD>\r\n<TD
+        BGCOLOR=#C0C0C0 ALIGN=\"center\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nTIME</FONT></TD>\r\n<TD
+        BGCOLOR=#C0C0C0 ALIGN=\"center\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nVENUE</FONT></TD>\r\n<TD
+        BGCOLOR=#C0C0C0 ALIGN=\"center\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nPRICE</FONT></TD>\r\n</TR>\r\n<TR
+        VALIGN=\"bottom\">\r\n<TD ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n
+        </FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nYOUNG
+        RIVAL / WE ARE MONROE</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n28-Jan-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nBelmont</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nNEON INDIAN</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n29-Jan-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$21.25</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nLA FLEUR + OTIS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n29-Jan-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nBleury</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$10.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nOSTRICH / HEAD NODDERS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n30-Jan-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nSADIES + LI,L ANDY</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n30-Jan-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nDANNY TENAGLIA</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n31-Jan-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$45.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nNETSKY</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n03-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nBelmont</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nMOGUAI</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n05-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nBelmont</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nHANDS OF DESPAIR + FROSTBITE
+        + MUSK OX</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n05-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n19:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nPetit Campus</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$10.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nCESAR ROMERO + JESSE
+        ZOTTI + JOHNNY MESSINA</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n06-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nNANCY PANTS + JULIE
+        DOIRON</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n06-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nRYAN CROSSON + MONITORS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n07-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$25.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nCHILLY GONZALES &amp;
+        KAISER QUARTET</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n08-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nWilfred-Pelletier</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$50.75</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nALISON WONDERLAND +
+        GOLDEN FEATURES</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n10-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nBelmont</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nLAWRENCE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n10-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$8.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nYUKSEK +JEAN TONIQUE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n11-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$21.25</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nSOFT MOON  + MARIE DAVIDSON
+        + DERNIER SEX</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n12-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nSala Rossa</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$13.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nFEED ME / WARRIOS /
+        MK.NOKTURN</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n12-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nTheatre Berri</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$26.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nFOXES IN FICTION</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n12-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nTR/ST</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n13-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$24.25</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nBAIO</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n13-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$18.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nJAY LUMAN + GINO G</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n13-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nMISS KITTIN</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n13-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nNewspeak</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nSESSION VICTIM</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n13-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nBleury</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nPAN-POT + OSTRICH</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n14-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$35.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nPAWA UP FIRST</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n16-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nETHNIC HERITAGE ENSEMBLE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n17-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nSala Rossa</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nYOUNG GALAXY</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n18-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$16.25</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nMATTHEW DEAR</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n18-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nNewspeak</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nDISAPPEARS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n18-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nPOISON IDEA + CHLD BITE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n19-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nBESNARD LAKES</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n19-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$17.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\nSOLD OUT</FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nKURT VILE &amp; THE
+        VIOLATORS</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n20-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n20:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nCorona</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$27.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nADAM SOOMON + VADIM
+        YERSHOV + CHICAIZA</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n20-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nTAAKE + YOUNG AND IN
+        THE WAY + VATTNET VISKAR + HAERES</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n21-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n19:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nPlaza</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$25.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nVICTORE CALDERONE +
+        MARCIANO</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n21-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$35.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nEDX + NORA EN PURE +
+        CROATIA SQUAD &amp; ANTONIO GIACCA</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n25-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nBelmont</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$23.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nFLORIST</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n25-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nBrasserie Beaubien</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$8.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nLUCY + INLAND + MOEVALITH</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n27-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nYUKON BLONDE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n27-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nDUB FIRE + JOHNNY TRIKA
+        (LIVE) + TONE DEPTH</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n28-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n2:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nStereo</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$45.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nPOP 1280</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n29-Feb-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$10.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nTY SEGALL &amp; THE
+        MUGGERS + CFM 2</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n02-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nRialto</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$25.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nWINTERSLEEP</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n02-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nTheatre Plaza</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\nSOLD OUT</FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nTY SEGALL &amp; THE
+        MUGGERS + CFM 30.</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n03-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nRialto</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$25.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nBELL WITCH</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n05-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nTurbohaus</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$10.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nESSAIE PAS + ORPHYX
+        + GRKZGL</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n05-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n22:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nSala Rossa</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$10.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nBLANCK MASS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n05-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nRANGDA</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n07-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nCasa</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\nSOLD OUT</FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nBEACH HOUSE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n09-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRialto</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$32.50</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nGUI BORATTO</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n10-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nNewspeak</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$25.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nMAJICAL CLOUDZ</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n10-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nSala Rossa</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nQUANTIC LIVE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n12-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n22:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nTORTOISE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n13-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$22.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nFRANK TURNER &amp; THE
+        SLEEPING SOULS</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n13-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n19:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nCorona</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$24.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nMOUNT MORIAH</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n16-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nDivan Orange</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$12.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nAGANTYR + MONARQUE +
+        BLACK EMPIRE ...</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n24-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n19:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nPirannha</FONT></TD>\r\n<TD ALIGN=\"right\"
+        STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$25.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nEZRA FURMAN</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n29-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$14.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nYOUNG FATHERS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n31-Mar-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nPORKY LAFARGE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n01-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nCorona</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nSAVAGES</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n02-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nCorona</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$25.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nOUGHT + CARO DIARO</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n08-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nSala Rossa</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$10.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nHIGH FUNCTIONING FLESH
+        + BODY OG LIGHT</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n09-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\nCasa</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$6.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nSARA NEUFELD + EARTHEATER</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n10-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nSala Rossa</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nPRINCE RAMA</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n13-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nCasa</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$10.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nMOON KING</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n14-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$10.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nRA RA RIOT</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n15-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:30</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nBLEACHED</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n16-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$15.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nSUBWAYS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n18-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$20.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nINTO IT OVER IT</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n19-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$18.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\nSOLD OUT</FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nFATHER JOHN MISTY</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nMetropolis</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$30.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nTV GIRL</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n26-Apr-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nCasa</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$9.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nCONSUMER ELECTRONICS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n06-May-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n21:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nRitz</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$17.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nBEN FOLDS</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n09-May-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n19:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nCorona</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$35.00</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nBRIAN JONESTOWN MASSASCRE</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n10-May-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nLa Tulipe</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$24.50</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nLAND OF TALK</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n11-May-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n10:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nFairmount</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$16.25</FONT></TD>\r\n</TR>\r\n<TR VALIGN=\"bottom\">\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"MS Sans Serif\" SIZE=-1>\r\n </FONT></TD>\r\n<TD
+        ALIGN=\"left\"><FONT FACE=\"Arial\" COLOR=#000000>\r\nCOURTNEY BARNETT</FONT></TD>\r\n<TD
+        ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:dd-mmm-yy\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n29-May-16</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\n20:00</FONT></TD>\r\n<TD ALIGN=\"left\"><FONT FACE=\"Arial\"
+        COLOR=#000000>\r\nCorona</FONT></TD>\r\n<TD ALIGN=\"right\" STYLE=\"vnd.ms-excel.numberformat:$#,##0.00[semicolon]($#,##0.00)\"><FONT
+        FACE=\"Arial\" COLOR=#000000>\r\n$29.00</FONT></TD>\r\n</TR>\r\n</Table>\r\n<!--
+        ------------------------- -->\r\n<!-- END OF CONVERTED OUTPUT -->\r\n<!--
+        ------------------------- -->\r\n\r\n</TD>\r\n</TR>\r\n\r\n<TR>\r\n<TD VALIGN=BOTTOM
+        WIDTH=\"120\" BGCOLOR=\"#990000\"><IMG SRC=\"images/gifs/bottombar.gif\" ALT=\"\"
+        HEIGHT=15 WIDTH=120 ALIGN=BOTTOM></TD>\r\n\r\n<TD VALIGN=BOTTOM WIDTH=\"445\">\r\n<CENTER><IMG
+        SRC=\"images/gifs/bottomlogoe.gif\" ALT=\"Established 1971\" BORDER=0 HEIGHT=57
+        WIDTH=400></CENTER>\r\n</TD>\r\n</TR>\r\n\r\n<TR>\r\n<TD>&nbsp;</TD>\r\n\r\n<TD>&nbsp;</TD>\r\n\r\n<TD>\r\n<CENTER>\r\n<BR><B><A
+        HREF=\"index.html\">Home</A> |<A HREF=\"cgi-bin/web_store/web_store.cgi\">Catalog</A>\r\n|
+        <A HREF=\"orderinfo.html\">Order Info</A> | <A HREF=\"indexf.html\">En Fran&ccedil;ais</A></B></CENTER>\r\n</TD>\r\n</TR>\r\n</TABLE></CENTER>\r\n\r\n</BODY>\r\n</HTML>\r\n"
+    http_version: 
+  recorded_at: Sun, 07 Feb 2016 23:26:13 GMT
+recorded_with: VCR 3.0.1
