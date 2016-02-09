@@ -7,8 +7,6 @@ gem 'haml', '~> 4.0.5'
 gem 'haml-rails', '~> 0.9'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -34,6 +32,8 @@ gem 'nokogiri'
 # Make it pretty
 gem "twitter-bootstrap-rails"
 
+gem 'pg'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -41,6 +41,7 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.0'
   gem 'webmock'
   gem 'vcr'
+  gem 'database_cleaner'
 end
 
 group :development do
@@ -49,3 +50,5 @@ group :development do
   gem 'guard-rspec', require: false
   gem 'zeus', require: false
 end
+
+gem 'rails_12factor', group: :production

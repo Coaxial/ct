@@ -22,7 +22,7 @@ RSpec.describe ScrapConcertsJob, type: :job do
 
     let(:expected_concert) { build(:concert, artist: 'KURT VILE & THE VIOLATORS', datetime: Time.new(2016, 2, 20, 20, 30, 0), venue: 'Corona', price: 27.0, soldout: true) }
 
-    subject { Concert.find(33) }
+    subject { Concert.find_by({ artist: 'KURT VILE & THE VIOLATORS' }) }
 
     it 'extracts the artist to the model' do
       expect(subject.artist).to eq(expected_concert.artist)
