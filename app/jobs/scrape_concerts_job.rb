@@ -1,6 +1,6 @@
 require 'open-uri'
 
-class ScrapConcertsJob < ActiveJob::Base
+class ScrapeConcertsJob < ActiveJob::Base
   queue_as :default
 
   def perform
