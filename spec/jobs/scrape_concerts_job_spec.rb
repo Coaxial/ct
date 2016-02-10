@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe ScrapConcertsJob, type: :job do
+RSpec.describe ScrapeConcertsJob, type: :job do
 
   context 'when running' do
     it 'gets the news page' do
       stub = stub_request(:get, 'cheapthrills.ca/news.html')
-      ScrapConcertsJob.perform_now
+      ScrapeConcertsJob.perform_now
 
       expect(stub).to have_been_requested.once
 
@@ -16,7 +16,7 @@ RSpec.describe ScrapConcertsJob, type: :job do
   context 'after scraping the page' do
     before {
       VCR.use_cassette(:ct_news) do
-        ScrapConcertsJob.perform_now
+        ScrapeConcertsJob.perform_now
       end
     }
 
