@@ -24,24 +24,11 @@ RSpec.describe ScrapConcertsJob, type: :job do
 
     subject { Concert.find_by({ artist: 'KURT VILE & THE VIOLATORS' }) }
 
-    it 'extracts the artist to the model' do
-      expect(subject.artist).to eq(expected_concert.artist)
-    end
-
-    it 'extracts the datetime to the model' do
-      expect(subject.datetime).to eq(expected_concert.datetime)
-    end
-
-    it 'extracts the venue to the model' do
-      expect(subject.venue).to eq(expected_concert.venue)
-    end
-
-    it 'extracts the price to the model' do
-      expect(subject.price).to eq(expected_concert.price)
-    end
-
-    it 'extracts the soldout status to the model' do
-      expect(subject.soldout).to eq(expected_concert.soldout)
+    attributes = [:artist, :datetime, :venue, :price, :soldout]
+    attributes.each do |attribute|
+      it "extracts the #{attribute} to the model" do
+        expect(subject[attribute]).to eq(expected_concert[attribute])
+      end
     end
   end
 end
